@@ -46,16 +46,6 @@ int main()
 		fout<<m(0)<<"\t"<<m(1)<<"\t"<<test(m)<<endl;
 	}
 	fout.close();
-
-
-    // Now print out how many dictionary vectors each center used.  Note that 
-    // the maximum number of 8 was reached.  If you went back to the kcentroid 
-    // constructor and changed the 8 to some bigger number you would see that these
-    // numbers would go up.  However, 8 is all we need to correctly cluster this dataset.
-    cout << "num dictionary vectors for center 0: " << test.get_kcentroid(0).dictionary_size() << endl;
-    cout << "num dictionary vectors for center 1: " << test.get_kcentroid(1).dictionary_size() << endl;
-    cout << "num dictionary vectors for center 2: " << test.get_kcentroid(2).dictionary_size() << endl;
-
 }
 
 
