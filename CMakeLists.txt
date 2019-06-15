@@ -1,20 +1,21 @@
 cmake_minimum_required(VERSION 3.2)
-project(dlibdlibtest VERSION 0.0.1)
+
+project(kkmeans VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 include_directories(${PROJECT_BINARY_DIR})
 
-add_executable(dlibtest dlibtest.cpp)
+add_executable(kkmeans kkmeans.cpp)
 
-set_target_properties(dlibtest PROPERTIES
+set_target_properties(kkmeans PROPERTIES
     CXX_STANDARD 14
     CXX_STANDARD_REQUIRED ON
     COMPILE_OPTIONS "-Wpedantic;-Wall;-Wextra"
 )
 
 find_package(dlib REQUIRED)
-target_link_libraries(dlibtest dlib::dlib)
+target_link_libraries(kkmeans dlib::dlib)
 
-install(TARGETS dlibtest RUNTIME DESTINATION bin)
+install(TARGETS kkmeans RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 
