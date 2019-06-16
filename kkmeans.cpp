@@ -40,7 +40,7 @@ int main(int argc, char **argv)
     test.set_number_of_centers(n);
     pick_initial_centers(n, initial_centers, samples, test.get_kernel());
     test.train(samples,initial_centers);
-
+	
 	// print results
 	for(const auto& m : samples) {
 		std::cout<<m(0)<<";"<<m(1)<<";"<<test(m)<<std::endl;
