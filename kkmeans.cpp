@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 
-	int n = atoi(argv[1]);
+	int n = atoi(argv[1]); // number of clusters
 	if(n<=1) {
 		std::cout<<"Error! Incorrect number '"<<argv[1]<<"'"<<std::endl;
 		std::cout<<"Need integer n >= 2"<<std::endl;
@@ -30,21 +30,21 @@ int main(int argc, char **argv)
     std::vector<sample_type> initial_centers;
 
 	// read data
+	char separator; // ;
     sample_type m;
-	while(std::cin>>m(0)>>m(1)) {
+	while(std::cin>>m(0)>>separator>>m(1)) {
 		samples.push_back(m);
 	}
 
-    test.set_number_of_centers(3);
-    pick_initial_centers(3, initial_centers, samples, test.get_kernel());
-
+	// learning
+    test.set_number_of_centers(n);
+    pick_initial_centers(n, initial_centers, samples, test.get_kernel());
     test.train(samples,initial_centers);
 
-	std::ofstream fout("kkmeans_ex.txt", std::ios::out);
-	for(auto m : samples) {
-		fout<<m(0)<<" "<<m(1)<<std::endl;
+	// print results
+	for(const auto& m : samples) {
+		std::cout<<m(0)<<";"<<m(1)<<";"<<test(m)<<std::endl;
 	}
-	fout.close();
 }
 
 
