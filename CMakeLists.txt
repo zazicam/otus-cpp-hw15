@@ -1,25 +1,20 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(kkmeans)
-set(VERSION_MAJOR 0)
-set(VERSION_MINOR 0)
-set(VERSION_PATCH $ENV{TRAVIS_BUILD_NUMBER})
+project(kkmeans VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 include_directories(${PROJECT_BINARY_DIR})
 
-include(dlib-19.6/dlib/cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/dlib-19.6/dlib/cmake)
 
 add_executable(kkmeans kkmeans.cpp)
 
 target_link_libraries(kkmeans dlib::dlib)
 
 add_executable(visualize 
-	${CMAKE_CURRENT_SOURCE_DIR}/visualize/visualize.cpp 
-	${CMAKE_CURRENT_SOURCE_DIR}/visualize/png_image.cpp
-	${CMAKE_CURRENT_SOURCE_DIR}/visualize/png_image.hpp
+	visualize.cpp 
+	png_image.cpp
+	png_image.hpp
 )
-
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/visualize)
 
 set_target_properties(visualize PROPERTIES
     CXX_STANDARD 14
@@ -40,9 +35,9 @@ install(TARGETS visualize RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 
-set(CPACK_PACKAGE_VERSION_MAJOR "${VERSION_MAJOR}")
-set(CPACK_PACKAGE_VERSION_MINOR "${VERSION_MINOR}")
-set(CPACK_PACKAGE_VERSION_PATCH "${VERSION_PATCH}")
+set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
+set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
 
 set(CPACK_PACKAGE_CONTACT dima.friends@mail.ru)
 
