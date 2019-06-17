@@ -16,7 +16,10 @@ target_link_libraries(kkmeans dlib::dlib)
 add_executable(visualize 
 	${CMAKE_CURRENT_SOURCE_DIR}/visualize/visualize.cpp 
 	${CMAKE_CURRENT_SOURCE_DIR}/visualize/png_image.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/visualize/png_image.hpp
 )
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/visualize)
 
 set_target_properties(visualize PROPERTIES
     CXX_STANDARD 14
