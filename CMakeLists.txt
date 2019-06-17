@@ -14,8 +14,8 @@ add_executable(kkmeans kkmeans.cpp)
 target_link_libraries(kkmeans dlib::dlib)
 
 add_executable(visualize 
-	visualize/visualize.cpp 
-	visualize/png_image.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/visualize/visualize.cpp 
+	${CMAKE_CURRENT_SOURCE_DIR}/visualize/png_image.cpp
 )
 
 set_target_properties(visualize PROPERTIES
@@ -28,7 +28,10 @@ find_package(PNG REQUIRED)
 include_directories(${PNG_INCLUDE_DIR})
 target_link_libraries(visualize ${PNG_LIBRARY})
 
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data DESTINATION /usr/share/kkmeans/)
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data 
+	DESTINATION /usr/share/kkmeans/
+)
+
 install(TARGETS kkmeans RUNTIME DESTINATION bin)
 install(TARGETS visualize RUNTIME DESTINATION bin)
 
