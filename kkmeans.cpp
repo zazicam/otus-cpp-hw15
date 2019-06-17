@@ -20,26 +20,26 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 
-    typedef matrix<double,2,1> sample_type;
-    typedef radial_basis_kernel<sample_type> kernel_type;
+	typedef matrix<double,2,1> sample_type;
+	typedef radial_basis_kernel<sample_type> kernel_type;
 
-    kcentroid<kernel_type> kc(kernel_type(0.1),0.01, 8);
-    kkmeans<kernel_type> test(kc);
+	kcentroid<kernel_type> kc(kernel_type(0.1),0.01, 8);
+	kkmeans<kernel_type> test(kc);
 
-    std::vector<sample_type> samples;
-    std::vector<sample_type> initial_centers;
+	std::vector<sample_type> samples;
+	std::vector<sample_type> initial_centers;
 
 	// read data
 	char separator; // ;
-    sample_type m;
+	sample_type m;
 	while(std::cin>>m(0)>>separator>>m(1)) {
 		samples.push_back(m);
 	}
 
 	// learning
-    test.set_number_of_centers(n);
-    pick_initial_centers(n, initial_centers, samples, test.get_kernel());
-    test.train(samples,initial_centers);
+	test.set_number_of_centers(n);
+	pick_initial_centers(n, initial_centers, samples, test.get_kernel());
+	test.train(samples,initial_centers);
 	
 	// print results
 	for(const auto& m : samples) {
