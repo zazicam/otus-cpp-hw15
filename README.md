@@ -52,7 +52,8 @@ cat kkmeans_ex.txt | kkmeans n
 * [Равномерное распределение точек](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex2.txt)
   <hr width="1">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"> 
-  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output2.png" width="300">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output2_n3.png" width="300">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output2_n10.png" width="300">
   <hr width="1">
 * [3 отдельные группы - вар1](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex3.txt)
   <hr width="1">
