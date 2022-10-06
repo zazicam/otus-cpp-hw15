@@ -47,17 +47,23 @@ cat kkmeans_ex.txt | kkmeans n
 * [Центральный кластер + кольцо вокруг него](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex.txt]
   <hr width="1">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300">
-  
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output.png" width="300">
-  <hr>
-  
-  
+  <hr width="1">
 * [Равномерное распределение точек](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex2.txt)
-  <hr><img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"><hr> 
+  <hr width="1">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"> 
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output2.png" width="300">
+  <hr width="1">
 * [3 отдельные группы - вар1](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex3.txt)
-  <hr><img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300"><hr> 
+  <hr width="1">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output3.png" width="300">
+  <hr width="1">
 * [3 отдельные группы - вар2](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex4.txt)
-  <hr><img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300"><hr> 
+  <hr width="1">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300">
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output4.png" width="300">
+  <hr width="1">
 Расположение точек в этих примерах показано на рисунках.
 
 
