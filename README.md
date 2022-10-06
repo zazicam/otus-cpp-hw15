@@ -62,12 +62,13 @@ cat kkmeans_ex.txt | kkmeans n
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output3.png" width="300">
   <hr width="1">
+  Результат кластеризации по 4 кластерам.
 * [3 отдельные группы - вар2](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex4.txt)
   <hr width="1">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output4.png" width="300">
   <hr width="1">
-Расположение точек в этих примерах показано на рисунках.
+  Результат кластеризации по 10 кластерам.
 
 
 
