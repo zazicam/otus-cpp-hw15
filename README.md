@@ -47,7 +47,7 @@ cat kkmeans_ex.txt | kkmeans n
 * [Центральный кластер + кольцо вокруг него](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex.txt]
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300"> 
 * [Равномерное распределение точек](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex2.txt)
-  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"> 
+  <hr><img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"> 
 * [3 отдельные группы - вар1](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex3.txt)
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300"> 
 * [3 отдельные группы - вар2](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex4.txt)
