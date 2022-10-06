@@ -51,10 +51,10 @@ cat kkmeans_ex.txt | kkmeans n
 
 Расположение точек в этих примерах показано на рисунках.
 <div display="flex">
-    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300" margin-right="30" margin-bottom="30" border="1px solid black"> 
-    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300" margin-right="30" margin-bottom="30" border="1px solid black"> 
-    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300" margin-right="30" margin-bottom="30" border="1px solid black"> 
-    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300" margin-right="30" margin-bottom="30" border="1px solid black"> 
+    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300" margin-right="30" margin-bottom="30" border-width="1px"> 
+    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300" margin-right="30" margin-bottom="30" border-width="1px"> 
+    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300" margin-right="30" margin-bottom="30" border-width="1px"> 
+    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300" margin-right="30" margin-bottom="30" border-width="1px"> 
 </div>
 
 
