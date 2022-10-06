@@ -47,7 +47,7 @@ cat kkmeans_ex.txt | kkmeans n
 * [Центральный кластер + кольцо вокруг него](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex.txt]
   <hr>
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300">
-  <div align="center"> --> </div>
+  <div width="50" align="center"> --> </div>
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output.png" width="300">
   <hr>
   
