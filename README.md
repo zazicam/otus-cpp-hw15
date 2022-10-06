@@ -45,13 +45,14 @@ cat kkmeans_ex.txt | kkmeans n
 # Результат
 Задание показалось мне интересным, поэтому я выполнил как основную (кластеризация) так и бонусную часть задания (программную визуализацию полученных класстеров). В папке data есть 4 примера входных данных с различным распределением. Это сгенерированные специальным образом группы и равномерное двумерное распределение: 
 * [Центральный кластер + кольцо вокруг него](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex.txt]
+  <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300"> 
 * [Равномерное распределение точек](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex2.txt)
 * [3 отдельные группы - вар1](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex3.txt)
 * [3 отдельные группы - вар2](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex4.txt)
 
 Расположение точек в этих примерах показано на рисунках.
-<div display="flex">
-    <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300"> 
+
+    
     <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"> 
     <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300"> 
     <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300"> 
