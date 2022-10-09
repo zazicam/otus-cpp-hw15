@@ -56,19 +56,19 @@ cat kkmeans_ex.txt | kkmeans n
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output2_n3.png" width="300">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output2_n10.png" width="300">
   <hr width="1">
-  Результат кластеризации для n1=3 и n2=10 кластеров.
+  Исходные данные (черно-белый рисунок) и результат кластеризации для n1=3 и n2=10 кластеров (цветные рисунки).
 * [3 отдельные группы - вар1](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex3.txt)
   <hr width="1">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out3-bw.png" width="300">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output3.png" width="300">
   <hr width="1">
-  Результат кластеризации по 4 кластерам.
+  Исходные данные и результат кластеризации по 4 кластерам.
 * [3 отдельные группы - вар2](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex4.txt)
   <hr width="1">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out4-bw.png" width="300">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output4.png" width="300">
   <hr width="1">
-  Результат кластеризации по 10 кластерам.
+  Исходные данные и результат кластеризации по 10 кластерам.
 
 ## Cборка программы
 Для сборки программы потребуется установить git, cmake и библиотеку libpng-dev (использовалась для визуализации). Например, в ОС Linux Ubuntu, это можно
