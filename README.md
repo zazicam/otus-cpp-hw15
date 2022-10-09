@@ -49,7 +49,7 @@ cat kkmeans_ex.txt | kkmeans n
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out-bw.png" width="300">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/output.png" width="300">
   <hr width="1">
-  Здесь количество кластеров было задано равным 3.
+  На рисунке слева показано изображение всех точек, заданных в файле. Справа показан результат кластеризации. Здесь количество кластеров было задано равным 3. Все полученные изображения сгенерированны моей программой визуализации (см. файл visualize.cpp).
 * [Равномерное распределение точек](https://github.com/zazicam/otus-cpp-hw15/blob/master/data/kkmeans_ex2.txt)
   <hr width="1">
   <img src="https://github.com/zazicam/otus-cpp-hw15/blob/master/data/out2-bw.png" width="300"> 
